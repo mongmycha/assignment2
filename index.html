@@ -6,11 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Assignment 002</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
-  <header>
-
+  <header class="max-w-[361px] md:max-w-[1140px] mx-auto">
+    <!-- navbar section -->
+    <nav class="flex justify-between items-center mt-8">
+      <img class="w-[63px] h-[38px] md:w-[135px] md:h-[82px]" src="assets/logo.png" alt="">
+      <div class="flex items-center gap-12">
+        <ul class="hidden md:flex gap-12">
+          <li class="text-[16px] text-[#252432] font-bold"><a href="">Home</a></li>
+          <li class="text-[16px] text-[#8987A1] font-normal"><a href="">Shop</a></li>
+          <li class="text-[16px] text-[#8987A1] font-normal"><a href="">About us</a></li>
+        </ul>
+        <span class="flex items-center gap-3">
+          <i class="fa-solid fa-cart-shopping text-[22px] md:text-2xl cursor-pointer"></i>
+          <h3 class="text-[16px] text-[#000000] font-normal">Cart ($56)</h3>
+        </span>
+      </div>
+    </nav>
+    <!-- banner section -->
   </header>
   <main>
 
